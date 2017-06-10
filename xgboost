@@ -1,0 +1,12 @@
+I can not figure out how to get the confidence intervals from a model created in xgboost.
+
+The model has already been created and I have used
+
+xgb.dump(boosted, 'xgb.model.dump', with_stats = TRUE)
+
+Model AUC was 0.877
+
+I am looking to get 95% CI.
+
+Thank you
+
